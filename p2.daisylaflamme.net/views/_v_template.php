@@ -15,8 +15,10 @@
 </head>
 
 <body>	
+	<section>
 
-	<?=$content;?> 
-
+		<?=$content;?> 
+		
+	</section>
 </body>
 </html>
