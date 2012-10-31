@@ -3,11 +3,11 @@ class users_controller extends base_controller {
 
 	public function __construct() {
 		parent::__construct();
-		echo "users_controller construct called<br><br>";
+		//echo "users_controller construct called<br><br>";
 	} 
 	
 	public function index() {
-		echo "Welcome to the users's department";
+		//echo "Welcome to the users's department";
 	}
 	
 	public function signup() {
@@ -17,6 +17,32 @@ class users_controller extends base_controller {
 			
 		# Render template
 			echo $this->template;
+			
+		#Send confirmation email
+		# Build a multi-dimension array of recipients of this email
+		$to[] = Array (Array("name" => "Judy Grimes", "email" => "judy@gmail.com"),
+						Array( "name" => "daisy", "email" => "otli4ni4ka@yahoo.com")
+						);
+
+		# Build a single-dimension array of who this email is coming from
+		# note it's using the constants we set in the configuration above)
+		$from = Array("name" => "Daisy LaFlamme's Microblog",
+						"email" => "daisy@daisylaflamme.net");
+		# Subject
+		$subject = "Welcom to Daisy LaFlamme's Microblog";
+
+		# You can set the body as just a string of text
+		$body = "Congratulations! You are  successfully registered at p2.daisylaflamme.net";
+
+		# OR, if your email is complex and involves HTML/CSS, you can build the body via a View just like we do in our controllers
+		# $body = View::instance('e_users_welcome');
+
+		# Build multi-dimension arrays of name / email pairs for cc / bcc if you want to 
+		$cc  = "";
+		$bcc = "";
+
+		# With everything set, send the email
+		$email = Email::send($to, $from, $subject, $body, true, $cc, $bcc);
 	}
 	
 	public function p_signup() {
@@ -36,20 +62,22 @@ class users_controller extends base_controller {
 	$user_id = DB::instance(DB_NAME)->insert("users", $_POST);
 	
 	# For now, just confirm they've signed up - we can make this fancier later
-	echo "You're signed up";
+	echo "You're signed up <a href='/users/login'>Log in</a>";
 		
 }
 	
-	public function login() {
-
-	# Setup view
-		$this->template->content = View::instance('v_users_login');
-		$this->template->title   = "Login";
-		
-	# Render template
-		echo $this->template;
+	public function login($error = NULL) {
 	
-	}
+	# Set up the view
+	$this->template->content = View::instance("v_users_login");
+	
+	# Pass data to the view
+	$this->template->content->error = $error;
+	
+	# Render the view
+	echo $this->template;
+	
+}
 	
 public function p_login() {
 	
@@ -83,8 +111,16 @@ public function p_login() {
 		# Send them to the main page - or whever you want them to go
 		Router::redirect("/");
 					
+		}
+	# Login failed
+	if($token == "") {
+		Router::redirect("/users/login/error"); # Note the addition of the parameter "error"
 	}
-
+	# Login passwed
+	else {
+		setcookie("token", $token, strtotime('+2 weeks'), '/');
+		Router::redirect("/");
+	}
 	}
 	
 	public function logout() {
@@ -103,13 +139,15 @@ public function p_login() {
 	setcookie("token", "", strtotime('-1 year'), '/');
 	
 	echo "You have been logged out.";
+	# Send them back to the login page
+		Router::redirect("/users/login/");
 
 	}
 	
 	public function profile($user_name = NULL) {
 	
 	if($user_name == NULL) {
-			echo "No user specified";
+			echo "No user Specified. <a href='/users/login'>Login</a>";
 		}
 	else {
 	

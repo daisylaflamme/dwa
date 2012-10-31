@@ -15,10 +15,31 @@
 </head>
 
 <body>	
-	<section>
 
-		<?=$content;?> 
+	<div id='menu'>
+	
+		<!-- Menu for users who are logged in -->
+		<? if($user): ?>
+			
+			<a href='/users/profile/$user_name'>Profile</a>
+			<a href='/posts/users/'>Change who you're following</a>
+			<a href='/posts/'>View posts</a>
+			<a href='/posts/add'>Add a new post</a>			
+			<a href='/users/logout'>Logout</a>
 		
-	</section>
+		<!-- Menu options for users who are not logged in -->	
+		<? else: ?>
+		
+			<a href='/users/signup'>Sign up</a>
+			<a href='/users/login'>Log in</a>
+		
+		<? endif; ?>
+	
+	</div>
+	
+	<br>
+
+	<?=$content;?> 
+
 </body>
 </html>
