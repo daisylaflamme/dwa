@@ -8,37 +8,92 @@ article, aside, figure, footer, header, nav, section {
 	padding: 0;
 }
 html {
-	background-image:url('/img/angry1.jpg');
-	background-color: red;
+	background-image: -moz-linear-gradient(
+	    30deg, black 30%, #fffded 50%, orange 60%, #fffded 70%, black 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, black 30%, #fffded 50%, orange 60%, #fffded 70%, black 100%);
+	background-image: -o-linear-gradient(
+	   30deg, black 30%, #fffded 50%, orange 60%, #fffded 70%, black 100%);
+	background-image: linear-gradient(
+	    30deg, black 30%, #fffded 50%, orange 60%, #fffded 70%, black 100%);
+	/*background-image:url('/img/f.gif');*/
+	background-color: black;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
-    border: 3px solid #800000;
-    background-color: #ffcc99;
+    border: 1px solid orange;
+    background-color: #F0F0F0;
 }
 a:focus, a:hover {
 	font-style: italic;
 }
+/*styles for the forms*/
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    padding-left: 1em;
+}
+
+legend {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+input, select, span {
+	font-size: 100%;
+}
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+span {
+	color: orange;
+}
+input, select {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    vertical-align: middle;
+    }
+input:required, input[required] {
+	border: 3px solid #800000;
+}
+input:valid {
+	border: 1px solid orange;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
+
 /* the styles for the header */
 header {
 	
 	padding: 1.5em 0;
 	background-image: -moz-linear-gradient(
-	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	    30deg, black 50%, #fffded 60%, orange 70%, #fffded 80%, black 100%);
 	background-image: -webkit-linear-gradient(
-	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	    30deg, black 50%, #fffded 60%, orange 70%, #fffded 80%, black 100%);
 	background-image: -o-linear-gradient(
-	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	   30deg, black 50%, #fffded 60%, orange 70%, #fffded 80%, black 100%);
 	background-image: linear-gradient(
-	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	    30deg, black 50%, #fffded 60%, orange 70%, #fffded 80%, black 100%);
 }
 header h1 {
-	color: #800000;
+	color: orange;
 }
 header h2 {
+	color: white;
 	font-style: italic;
 }
 header img {
@@ -46,7 +101,7 @@ header img {
 	padding: 0 30px;
 }
 .shadow {
-	text-shadow: 2px 2px 2px #800000;
+	text-shadow: 2px 2px 2px black;
 }
 
 /* the styles for the navigation bar */
@@ -56,37 +111,44 @@ nav {
 nav ul {
 	list-style: none;
 	padding: 1em 0;       /* padding above and below li elements */
-	background-color: #800000; }
+	background-color: black; }
 nav li {
 	display: inline; }
 nav a {
-	padding: 1em 2em;
+	padding: 1em 4em;
 	text-decoration: none;
 	color: #fffded;
 	font-weight: bold;
-	border-right: 2px solid #fffded; }
+	 }
 nav a.current { color: yellow; }
 section {
-	clear: left;
-	padding: 20px 20px;
-	width: 525px;
+	
+	padding: 20px 30px;
+	width: 80%;
 	
 }
 section h2 {
-	color: #800000;
+	color: orange;
 	font-size: 150%;
 	padding: .5em 0 .25em;
 }
 section p {
 	padding-bottom: .5em;
 }
+section img {
+	
+	float: left;
+	padding:10px 5px
+}
 
 /* the styles for the footer */
 footer {
-	border-top: 3px solid #800000;
+	height: 200px;
+	border-top: 1px solid orange;
 	clear: both;
 }
 footer p {
+
 	padding: 1em 0;
 	text-align: center;
 }

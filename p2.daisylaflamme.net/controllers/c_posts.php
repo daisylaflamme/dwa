@@ -43,8 +43,9 @@ class posts_controller extends base_controller {
 		$q = "SELECT * 
 			FROM posts 
 			JOIN users USING (user_id)
-			WHERE posts.user_id IN (".$connections_string.")"; # This is where we use that string of user_ids we created
-					
+			WHERE posts.user_id IN (".$connections_string.") 
+			ORDER BY posts_created DESC";
+		# This is where we use that string of user_ids we created	
 		# Run our query, store the results in the variable $posts
 		$posts = DB::instance(DB_NAME)->select_rows($q);
 	}
@@ -146,9 +147,9 @@ public function unfollow($user_id_followed) {
 		# Note we didn't have to sanitize any of the $_POST data because we're using the insert method which does it for us
 		DB::instance(DB_NAME)->insert('posts', $_POST);
 		
-		# Quick and dirty feedback
-		echo "Your post has been added. <a href='/posts/add'>Add another?</a>
-		or <a href='/posts'>Go Back</a>";
+		# Send them back
+		Router::redirect("/posts");
+		
 	
 	}
 }

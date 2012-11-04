@@ -1,10 +1,11 @@
 <form method='POST' action='/users/p_login'>
-
-	Email<br>
+	<fieldset>
+	<legend>Log In Information</legend>
+	<label for='email'>Email &nbsp;</label>
 	<input type='text' name='email'>	
 	<br><br>
 	
-	Password<br>
+	<label for='password'>Password &nbsp;</label>
 	<input type='password' name='password'>
 	<br><br>
 	
@@ -14,7 +15,7 @@
 		</div>
 		<br>
 	<? endif; ?>
-
+&nbsp;
 	<input type='submit'>
-
+	</fieldset>
 </form>

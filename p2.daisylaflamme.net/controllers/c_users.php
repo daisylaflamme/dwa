@@ -17,7 +17,7 @@ class users_controller extends base_controller {
 			
 		# Render template
 			echo $this->template;
-			
+		
 		#Send confirmation email
 		# Build a multi-dimension array of recipients of this email
 		$to[] = Array (Array("name" => "Judy Grimes", "email" => "judy@gmail.com"),
@@ -63,7 +63,7 @@ class users_controller extends base_controller {
 	
 	# For now, just confirm they've signed up - we can make this fancier later
 	echo "You're signed up <a href='/users/login'>Log in</a>";
-		
+	Router::redirect("/users/login");	
 }
 	
 	public function login($error = NULL) {
@@ -100,7 +100,8 @@ public function p_login() {
 	if(!$token) {
 			
 		# Send them back to the login page
-		Router::redirect("/users/login/");
+		Router::redirect("/users/login/error");
+		
 		
 	# But if we did, login succeeded! 
 	} else {
@@ -113,14 +114,7 @@ public function p_login() {
 					
 		}
 	# Login failed
-	if($token == "") {
-		Router::redirect("/users/login/error"); # Note the addition of the parameter "error"
-	}
-	# Login passwed
-	else {
-		setcookie("token", $token, strtotime('+2 weeks'), '/');
-		Router::redirect("/");
-	}
+	#if($token == "") 
 	}
 	
 	public function logout() {
