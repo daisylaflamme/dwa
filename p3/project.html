@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Daisy LaFlamme</title>
+	<link rel="shortcut icon" href="images/desi.ico">
+	<link rel="stylesheet" href="daisy.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script type="text/javascript" src="time.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="images/logo.gif" alt="Daisy LaFlamme" height="80">
+		<hgroup>
+			<h1>Daisy LaFlamme</h1>
+			<h2>Project 3</h2>
+		</hgroup>
+	</header>
+	<nav>
+    	<ul>
+    		<li><a  href="index.html">Proposal</a></li>
+            <li><a class="current" href="index.html">Project</a></li>
+    	</ul>
+    </nav>
+	<section>
+	<h1>Title</h1>
+		<p>Time Management Productivity Tool</p>
+		<h1>Description</h1>
+		<p>The time productive tool will calculate timing for work and break. 
+		It calculates 40 minutes of work and 10 minutes of break. 
+		The user will have choice to extend the 40 min time-frame to another 40 minutes, 
+		or take the 10 minutes break. Other choices for the user will be: pause, start or reset time.</p>
+	<br><br>
+	
+	<div class="bg">
+    
+    <h1>Time Manager</h1>	
+    	<input type="button" class="start" value="Start Work">
+        <br><br>
+		<input type="button" id="break" value="10 min Break">
+      
+		<input type="button" class="start" value="Continue Work">
+        <br><br>
+		<input type="button" id="pause" value="Pause">
+    
+		<input type="button" id="reset" value="Reset">
+	
+    <br><br>
+  <audio id="alarm" preload="auto" controls loop >
+  	<source  src="alarm.mp3" type="audio/mp3">
+	<source  src="alarm.ogv" type="audio/ogg">
+	 
+    <object type="application/x-shockwave-flash" width="50" height="50">
+        <param name="movie" value="alarm.swf">
+        <param name="wmode"  value="transparent">
+        <param name="quality" value="high">
+        <!--[if !IE]>-->
+            <object  type="application/x-shockwave-flash"
+                    data="alarm.swf"
+                    width="50" height="50">
+                <param name="wmode" value="transparent">
+                <param name="quality" value="high">
+            </object>
+        <!--<![endif]-->
+    </object>
+</audio>
+</div>
+	</section>	
+	<footer>
+		<p>
+        CSICE-75<br>
+        Last Updated: 11-25-2012<br>
+         Daisy LaFlamme, Boston, MA <br>
+        daisy@daisylaflamme.net<br>
+      
+    	</p>
+		
+	</footer>
+</body>
+</html>

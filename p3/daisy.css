@@ -1,0 +1,123 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	background-color: white;
+	font-family: "Comic Sans MS", cursive;
+}
+header h1 {
+	color: #3399CC;
+	font-family: "Comic Sans MS", cursive;
+}
+header h2 {
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #3399CC;
+}
+
+/* the styles for the navigation bar */
+nav {
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	padding: 1em 0;       /* padding above and below li elements */
+	background-color: #3399CC; }
+nav li {
+	display: inline; }
+nav a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #fffded;
+	font-weight: bold;
+	border-right: 2px solid #fffded; }
+nav a.current { color: yellow; }
+
+input {
+	width: 9em;
+	padding: .3em;
+	background-image: url(images/Untitled-2.gif);
+	font-family: "Comic Sans MS", cursive;
+}
+#reset {
+	margin: 20px;	
+}
+#pause {
+	margin: 20px;	
+}
+#break {
+	margin: 20px;	
+}
+.start {
+	margin: 20px;	
+}
+section {
+	clear: left;
+	padding: 20px 20px;
+	width: 700px;
+	
+}
+section h1 {
+	color: #3399CC;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+	font-family: "Comic Sans MS", cursive;
+}
+section div h1 {
+	font-family: "Comic Sans MS", cursive;
+	color: #09F;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+section p {
+	padding-bottom: .5em;
+	font-family: "Comic Sans MS", cursive;
+}
+.bg{
+	background-image: url(images/bg.gif);
+	background-repeat: no-repeat;
+
+}
+
+/* the styles for the footer */
+footer {
+	border-top: 3px solid #3399CC;
+	clear: both;
+}
+footer p {
+	padding: 1em 0;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+}
+.dark {
+	font-weight: bold;
+}
