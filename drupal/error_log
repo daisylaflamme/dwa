@@ -1,0 +1,20 @@
+[04-Dec-2012 20:56:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/daisylaf/public_html/drupal/includes/module.inc on line 1034
+[06-Dec-2012 23:53:30 UTC] PHP Fatal error:  Call to undefined function file_create_path() in /home/daisylaf/public_html/drupal/sites/all/modules/charts/fusioncharts/fusioncharts.install on line 12
+[06-Dec-2012 23:54:41 UTC] PHP Fatal error:  Call to undefined function file_create_path() in /home/daisylaf/public_html/drupal/sites/all/modules/charts/fusioncharts/fusioncharts.install on line 12
+[07-Dec-2012 23:27:10 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:27:44 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:29:26 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:29:31 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:30:22 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:30:46 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:30:53 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:31:14 UTC] PHP Fatal error:  Call to undefined function file_create_path() in /home/daisylaf/public_html/drupal/sites/all/modules/charts/fusioncharts/fusioncharts.install on line 12
+[07-Dec-2012 23:31:15 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:31:39 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:31:42 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[07-Dec-2012 23:31:50 UTC] PHP Fatal error:  Call to undefined function chart_size() in /home/daisylaf/public_html/drupal/modules/poll/poll.module on line 857
+[08-Dec-2012 05:02:08 UTC] PHP Fatal error:  Class 'simple_html_dom' not found in /home/daisylaf/public_html/drupal/sites/all/modules/devel_themer/devel_themer.module on line 201
+[08-Dec-2012 05:02:30 UTC] PHP Fatal error:  Class 'simple_html_dom' not found in /home/daisylaf/public_html/drupal/sites/all/modules/devel_themer/devel_themer.module on line 201
+[08-Dec-2012 05:03:08 UTC] PHP Fatal error:  Class 'simple_html_dom' not found in /home/daisylaf/public_html/drupal/sites/all/modules/devel_themer/devel_themer.module on line 201
+[08-Dec-2012 05:12:07 UTC] PHP Fatal error:  Class 'simple_html_dom' not found in /home/daisylaf/public_html/drupal/sites/all/modules/devel_themer/devel_themer.module on line 201
+[08-Dec-2012 05:31:34 UTC] PHP Fatal error:  Class 'simple_html_dom' not found in /home/daisylaf/public_html/drupal/sites/all/modules/devel_themer/devel_themer.module on line 201
