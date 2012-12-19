@@ -1,0 +1,27 @@
+2012-10-31 2:06:18 - INFO --> Controller/Method: users/signup 
+2012-10-31 2:06:18 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY daisy@daisylaflamme.net 
+2012-10-31 2:06:18 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-10-31 2:06:18 - INFO --> To:  (),  
+2012-10-31 2:06:18 - INFO --> CC:  
+2012-10-31 2:06:18 - INFO --> BCC:  
+2012-10-31 2:06:18 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-10-31 2:06:18 - INFO --> Body: Hi , You are  successfully registered at p2.daisyl 
+2012-10-31 2:06:19 - INFO --> FAILED TO SEND EMAIL 
+2012-10-31 2:06:44 - INFO --> Controller/Method: users/signup 
+2012-10-31 2:06:44 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY daisy@daisylaflamme.net 
+2012-10-31 2:06:44 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-10-31 2:06:44 - INFO --> To:  (),  
+2012-10-31 2:06:44 - INFO --> CC:  
+2012-10-31 2:06:44 - INFO --> BCC:  
+2012-10-31 2:06:44 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-10-31 2:06:44 - INFO --> Body: Hi , You are  successfully registered at p2.daisyl 
+2012-10-31 2:06:45 - INFO --> FAILED TO SEND EMAIL 
+2012-10-31 2:17:50 - INFO --> Controller/Method: users/signup 
+2012-10-31 2:17:50 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY daisy@daisylaflamme.net 
+2012-10-31 2:17:50 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-10-31 2:17:50 - INFO --> To:  (),  
+2012-10-31 2:17:50 - INFO --> CC:  
+2012-10-31 2:17:50 - INFO --> BCC:  
+2012-10-31 2:17:50 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-10-31 2:17:50 - INFO --> Body: Congratulations! You are  successfully registered  
+2012-10-31 2:17:51 - INFO --> FAILED TO SEND EMAIL 

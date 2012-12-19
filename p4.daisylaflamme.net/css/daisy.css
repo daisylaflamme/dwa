@@ -1,0 +1,260 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+		background: #aacef7; /* for non-css3 browsers */
+		background: radial-gradient(top left, #aacef7,#ffffff); /* W3C */
+		background: -moz-radial-gradient(top left, #aacef7,  #ffffff); /* for firefox 3.6+ */ 
+		background: -webkit-gradient(radial, top left, from(#aacef7), to(#ffffff)); /* Safari 4+, Chrome */
+		background: -webkit-radial-gradient(top left, #aacef7, #ffffff); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+		background: -o-radial-gradient(top left, #aacef7,#ffffff); /* Opera 11.10+ */
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid none;
+   
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+	
+}
+/*styles for the forms*/
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    padding-left: 1em;
+}
+
+legend {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+input, select, span {
+	font-size: 100%;
+}
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+span {
+	color: orange;
+}
+input, select {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    vertical-align: middle;
+    }
+textarea, select {
+	width: 20em;
+	height: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    vertical-align: middle;
+}
+input:required, input[required] {
+	border: 1px solid #800000;
+}
+input:valid {
+	border: 1px solid orange;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
+
+/* the styles for the header */
+header {
+
+}
+header h1 {
+	color: orange;
+	padding: 10px 10px;
+}
+header h2 {
+	color: blue;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 10px 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px black;
+}
+
+/* the styles for the navigation bar */
+nav {
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	padding: 1em 0;       /* padding above and below li elements */
+	background-color: #6d86be; }
+nav li {
+	display: inline; }
+nav a {
+	padding: 1em 4em;
+	text-decoration: none;
+	color: #fffded;
+	font-weight: bold;
+	 }
+nav a.current { color: yellow; }
+section {
+	
+	float: left;
+	padding: 20px 30px;
+	width: 36%;
+	
+}
+section h2 {
+	color: orange;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+section p {
+	padding-bottom: .5em;
+        color: #686868;
+}
+section img {
+	
+	
+	padding:10px 5px
+}
+
+aside {
+	clear: right;
+	float: right;
+	width: 56%;
+	padding: 20px 0px;
+}
+
+/* The styles for my jQuery carousel slide show  */
+#map {
+    border: 2px solid black;
+}
+aside #image_list li {
+    display: inline;
+    padding: 2px;
+}
+aside #image_list a {
+    border: medium none;
+}
+#rollover_heading {
+    padding-bottom: 0;
+}
+#carousel {
+    margin: 10px 0 0;
+    padding: 0;
+    width: 500px;
+	height: 400px;
+	 box-shadow: 16px 7px 27px #6d6b6b;
+		-moz-box-shadow: 16px 7px 27px #6d6b6b;/*FF 3.5+*/
+		-webkit-box-shadow: 16px 7px 27px #6d6b6b;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=27, Direction=114, Color=#6d6b6b)";/*IE 8*/
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=27, Direction=114, Color=#6d6b6b);/*IE 5.5-7*/
+	
+	
+}
+.button {
+    float: left;
+    height: 25px;
+    margin: 10px;
+    width: 25px;
+}
+.panel {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+	height: 400px;
+}
+.panel-inner {
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	height: 400;
+}
+.panel-inner li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 500px;
+}
+.panel-inner li img {
+    height: 400px;
+    width: 500px;
+}
+.fadein {
+    height: 300px;
+    position: relative;
+    width: 200px;
+}
+
+/* the styles for the footer */
+footer {
+	height: 200px;
+	clear: both;
+        background-color: #C8C8C8;
+        font-style: italic;
+	font-size: .8em;
+	
+}
+footer p {
+
+	padding: 1em 0;
+	text-align: center;
+}
+.dark {
+	font-weight: bold;
+}
+.sec{
+	padding: 5px 5px;
+	border: 1px double #D8D8D8;
+	width: 90%;
+}
+.small{
+	color: #888888;
+	font-size: .8em;
+}
+.message{
+		padding: 0px 10px;
+		 box-shadow: 16px 7px 27px #6d6b6b;
+		-moz-box-shadow: 16px 7px 27px #6d6b6b;/*FF 3.5+*/
+		-webkit-box-shadow: 16px 7px 27px #6d6b6b;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=27, Direction=114, Color=#6d6b6b)";/*IE 8*/
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=27, Direction=114, Color=#6d6b6b);/*IE 5.5-7*/
+
+}
+.social {
+	float: left;
+}
+.social {
+	padding: 5px;
+}

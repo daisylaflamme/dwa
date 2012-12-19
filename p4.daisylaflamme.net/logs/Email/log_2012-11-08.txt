@@ -1,0 +1,24 @@
+2012-11-08 12:59:31 - INFO --> Controller/Method: users/signup 
+2012-11-08 12:59:31 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-11-08 12:59:31 - INFO --> To:  (),  
+2012-11-08 12:59:31 - INFO --> CC:  
+2012-11-08 12:59:31 - INFO --> BCC:  
+2012-11-08 12:59:31 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-11-08 12:59:31 - INFO --> Body: Congratulations! You are  successfully registered  
+2012-11-08 12:59:31 - INFO --> FAILED TO SEND EMAIL 
+2012-11-08 23:35:45 - INFO --> Controller/Method: users/signup 
+2012-11-08 23:35:45 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-11-08 23:35:45 - INFO --> To:  (),  
+2012-11-08 23:35:45 - INFO --> CC:  
+2012-11-08 23:35:45 - INFO --> BCC:  
+2012-11-08 23:35:45 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-11-08 23:35:45 - INFO --> Body: Congratulations! You are  successfully registered  
+2012-11-08 23:35:45 - INFO --> FAILED TO SEND EMAIL 
+2012-11-08 23:39:19 - INFO --> Controller/Method: users/signup 
+2012-11-08 23:39:19 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-11-08 23:39:19 - INFO --> To:  (),  
+2012-11-08 23:39:19 - INFO --> CC:  
+2012-11-08 23:39:19 - INFO --> BCC:  
+2012-11-08 23:39:19 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-11-08 23:39:19 - INFO --> Body: Congratulations! You are  successfully registered  
+2012-11-08 23:39:19 - INFO --> FAILED TO SEND EMAIL 

@@ -1,0 +1,16 @@
+[30-Oct-2012 01:08:34 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'p2'@'localhost' (using password: YES) in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 31
+[30-Oct-2012 01:08:34 UTC] PHP Notice:  Undefined variable: sql in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:08:34 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:11:46 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'p2'@'localhost' (using password: YES) in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 31
+[30-Oct-2012 01:11:46 UTC] PHP Notice:  Undefined variable: sql in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:11:46 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:21:25 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'p2'@'localhost' (using password: YES) in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 31
+[30-Oct-2012 01:21:25 UTC] PHP Notice:  Undefined variable: sql in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:21:25 UTC] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /home/daisylaf/public_html/dwa/core/libraries/DB.php on line 39
+[30-Oct-2012 01:21:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/controllers/c_users.php:6) in /home/daisylaf/public_html/dwa/core/libraries/Router.php on line 239
+[02-Nov-2012 19:20:11 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18
+[02-Nov-2012 19:20:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18
+[02-Nov-2012 19:20:52 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18
+[02-Nov-2012 19:21:06 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18
+[02-Nov-2012 19:21:24 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18
+[03-Nov-2012 16:29:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/daisylaf/public_html/dwa/p2.daisylaflamme.net/config/config.php on line 18

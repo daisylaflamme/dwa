@@ -1,0 +1,8 @@
+2012-11-12 14:20:03 - INFO --> Controller/Method: users/signup 
+2012-11-12 14:20:03 - INFO --> From: Daisy LaFlamme's Microblog (daisy@daisylaflamme.net) 
+2012-11-12 14:20:03 - INFO --> To:  (),  
+2012-11-12 14:20:03 - INFO --> CC:  
+2012-11-12 14:20:03 - INFO --> BCC:  
+2012-11-12 14:20:03 - INFO --> Subject: Welcom to Daisy LaFlamme's Microblog 
+2012-11-12 14:20:03 - INFO --> Body: Congratulations! You are  successfully registered  
+2012-11-12 14:20:03 - INFO --> FAILED TO SEND EMAIL 
